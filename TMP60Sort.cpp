@@ -40,6 +40,9 @@ int main()
     {
         stackToSort.Push(rand());
     }
+    cout << "Стек до сортировки:\n";
+    stackToSort.PrintStack();
     stackToSort = SortStack(stackToSort);
+    cout << "\nСтек после сортировки:\n";
     stackToSort.PrintStack();
 }
